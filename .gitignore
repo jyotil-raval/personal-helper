@@ -1,0 +1,33 @@
+# Go
+backend/bin/
+*.exe
+*.test
+*.out
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+
+# Node
+node_modules/
+.next/
+.expo/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Kubernetes — never commit real secrets
+k8s/base/secret.yaml
+
+# Docker
+docker-compose.override.yml
